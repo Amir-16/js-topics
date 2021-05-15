@@ -5,10 +5,10 @@ for(var i=0;i<age.length;i++){
     //console.log(persons);
 }
 
-var name =['abir','rahim','karim'];
+var names =['abir','rahim','karim'];
 
-for(var i=0;i<name.length;i++){
+for(var i=0;i<names.length;i++){
     
-    var total =name[i];
+    var total =names[i];
     console.log(total);
 }

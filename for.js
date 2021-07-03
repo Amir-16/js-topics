@@ -5,7 +5,7 @@ for(var i=0;i<age.length;i++){
     //console.log(persons);
 }
 
-var names =['abir','rahim','karim'];
+var names =['abid','rahim','karim'];
 
 for(var i=0;i<names.length;i++){
     

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Dom</title>
+</head>
+<body>
+    <div style="text-align: center;">
+        <h3 >JS Dom find elemets</h3>
+    </div>
+    
+
+    <p id="test"> Js Dom is fun & interesting</p>
+    <p>This is demo test line for find js dom id</p>
+
+    <p id="get"></p>
+
+    <script>
+        const elemets =document.getElementById("test");
+
+        document.getElementById("get").innerHTML="The text will add from test:" + elemets.innerHTML;
+
+
+    </script>
+    
+</body>
+</html>

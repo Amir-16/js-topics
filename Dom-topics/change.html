@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div style="text-align: center;">
+    <h2 id="old">JavaScript can Change HTML</h2>
+</div>
+
+
+<p id ="main">Hello World!</p>
+<p id="change">Changed this line</p>
+
+
+<script>
+
+const x =document.getElementById("old");
+x.innerHTML="Hello from new heading";
+document.getElementById("change").innerHTML="This is new line";
+</script>
+
+<p>The paragraph above was changed by a script.</p>
+
+</body>
+</html>

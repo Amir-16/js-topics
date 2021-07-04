@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Dom</title>
+</head>
+<body>
+
+    <div id="test">
+        <p>Get elememts from js Dom </p>
+        <p>Playing with js</p>
+    </div>
+    
+    <p id="get"> </p>
+
+    <script>
+
+        const elements =document.getElementById("test");
+
+        document.getElementById("get").innerHTML ="This text will add innerHtml:" + elements.innerHTML;
+    </script>
+</body>
+</html>

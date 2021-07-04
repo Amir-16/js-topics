@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div style="text-align: center;">
+    <h2>JavaScript DOM addEventListener</h2>
+</div>
+
+
+<!--handle two object -->
+<button id="test">Try it</button>
+
+<script>
+    
+    var data =document.getElementById("test");
+    data.addEventListener("click",showFirst);
+    data.addEventListener("click",showSecond);
+
+     function showFirst(){
+         alert("msg from first function");
+
+     }
+
+     function showSecond(){
+         alert("msg from second function");
+     }
+</script>
+
+</body>
+</html>
